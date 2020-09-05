@@ -2,11 +2,13 @@ In this repository, we give all of the code necessary to scrape ufc fights data 
 For example, we could evaluate the outcome of Petr Yan fighting Jose Aldo on July 12, 2020. The result is unsurprising.
 
 input: ufc_predict('Petr Yan', 'Jose Aldo', 'July 12, 2020', 'July 12, 2020')
+
 output: Petr Yan by KO/TKO
 
 Alternatively, we could imagine what would happen if the July 12, 2020 version of Petr Yan were to fight the prime July 12, 2014 version of Jose Aldo. The result is as follows.
 
 input: ufc_predict('Petr Yan', 'Jose Aldo', 'July 12, 2020', 'July 12, 2014')
+
 output: Jose Aldo by U-DEC
 
 take that Petr ;)
